@@ -13,7 +13,7 @@ let countriesArray = [];
 const loadingEl = showLoadingState(countriesEl);
 
 function fetchCountries() {
-	fetch('../data.json')
+	fetch('./data.json')
 		.then((res) => {
 			if (!res.ok) {
 				throw new Error('something went wrong while fetching data !');

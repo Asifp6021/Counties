@@ -7,7 +7,7 @@ export function sendDataToDetailPage(countriesEl) {
 		if (countryNameEl) {
 			const countryName = countryNameEl.textContent;
 
-			fetch('../data.json')
+			fetch('./data.json')
 				.then((res) => res.json())
 				.then((data) => {
 					const dataIs = data.find((item) => item.name === countryName);
