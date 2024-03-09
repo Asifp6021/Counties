@@ -48,7 +48,7 @@ export function sendDataToDetailPage(countriesEl) {
 
 					const queryString = new URLSearchParams(dataToSendForDetailPage);
 
-					const url = `../HTML/details.html?${queryString}`;
+					const url = `./details.html?${queryString}`;
 
 					window.location.href = url;
 				});

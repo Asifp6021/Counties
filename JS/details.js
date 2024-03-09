@@ -2,7 +2,7 @@ const backBtn = document.querySelector('button');
 const detailContainer = document.querySelector('.details__content');
 
 backBtn.addEventListener('click', function () {
-	window.location.href = '../HTML/index.html';
+	window.location.href = './index.html';
 });
 
 // -------------------------------------------------------------------

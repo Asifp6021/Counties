@@ -77,8 +77,6 @@ selectInput.addEventListener('change', function (e) {
 	const selectedQuery = e.target.value;
 	searchInput.value = '';
 
-	console.log(selectedQuery);
-
 	if (
 		selectedQuery.toLowerCase() === 'all' ||
 		selectedQuery.toLowerCase() === 'filter by region'
